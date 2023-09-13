@@ -1,12 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100,200,300,400,500,600,700|Exo:100,200,300,400,500,600.700');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700');
 
+
+/*---------------------------------------------- Colours */
+.bg-color-name-title {
+    background-color: black;
+}
+
+.ui-menu-color-home {
+    background-color: #000000;
+    color: #808080;
+}
+
+.ui-menu-color-film {
+    background-color: #000000;
+    color: #808080;
+}
+
+.ui-menu-color-contact {
+    background-color: #000000;
+    color: #808080;
+}
+
+.ui-menu-color-cv {
+    background-color: #000000;
+    color: #808080;
+}
+
+/*---------------------------------------------- Heading */
 Header {
     margin: 0;
 
 }
 
+.heading {
+    margin-left: 25px;
+}
+
 .logo {
-    background-color: url("../images/main.jpg");
+    background: url("../images/main.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,4 +45,35 @@ Header {
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+}
+
+.name {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 46px;
+    margin-top: 25px;
+    color: #808080;
+}
+
+.title {
+    font-family: 'Josefin Sans',
+        sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 90px;
+    color: #808080;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
 }
