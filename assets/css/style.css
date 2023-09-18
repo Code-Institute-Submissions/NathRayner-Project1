@@ -6,6 +6,11 @@
     background-color: black;
 }
 
+.bg-color-photography {
+    background: #000000;
+    color: #808080;
+}
+
 .ui-menu-color-home {
     background-color: #000000;
     color: #808080;
@@ -49,6 +54,24 @@ h4 {
 .inline-block {
     display: inline-block;
 }
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
 
 /*---------------------------------------------- Heading */
 Header {
@@ -170,5 +193,32 @@ footer {
 
 .cv-pdf i:hover {
     color: aliceblue;
+}
 
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: aliceblue;
+    background: #000000;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #808080;
+}
+
+#footer-details {
+    padding: 20px;
 }
