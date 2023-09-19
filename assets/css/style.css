@@ -6,7 +6,7 @@
     background-color: black;
 }
 
-.bg-color-photography {
+.bg-color-whynath {
     background: #000000;
     color: #808080;
 }
@@ -31,6 +31,10 @@
     color: #808080;
 }
 
+.bg-color-personal-info {
+    background-color: #808080;
+    color: aliceblue;
+}
 /*---------------------------------------------- sp paddings/margins/texts */
 
 h1,
@@ -70,6 +74,32 @@ h4 {
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
+}
+
+/* --------------------------------- Why Nath */
+
+.about-nath-icon {
+    font-size: 26px;
+    color:#808080;
+}
+
+.about-nath-heading {
+    margin-bottom: 10px;
+}
+
+.imdb i {
+    font-size: 18px;
+    color: #808080;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.imdb i:hover {
+    color: aliceblue;
 }
 
 
