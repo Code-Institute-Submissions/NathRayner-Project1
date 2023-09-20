@@ -292,6 +292,12 @@ footer {
 
 .creative-images {
     background: #000000;
+    color: #808080;
+}
+
+.creative-images div div h3 {
+    font-family: "Josefin Sans",
+        sans-serif;
 }
 
 .creative-images div div img {
