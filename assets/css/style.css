@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700");
 
-/*---------------------------------------------- Colours */
+/*------------------------- Colours -----------------------------*/
 .bg-color-name-title {
     background-color: black;
 }
@@ -35,7 +35,11 @@
     color: aliceblue;
 }
 
-/*---------------------------------------------- sp paddings/margins/texts */
+body {
+    background-color: #000000;
+}
+
+/*------------------ sp paddings/margins/texts ----------------------------*/
 
 h1,
 h2,
@@ -75,7 +79,7 @@ h4 {
     margin-bottom: 40px;
 }
 
-/* --------------------------------- Why Nath */
+/* ---------------- Why Nath -----------------*/
 
 .about-nath-icon {
     font-size: 26px;
@@ -101,7 +105,7 @@ h4 {
     color: aliceblue;
 }
 
-/*--- Nath's info */
+/*---------- Nath's info -------------*/
 
 .naths-info-item {
     margin-bottom: 10px;
@@ -136,7 +140,7 @@ h4 {
     position: relative;
 }
 
-/*---------------------------------------------- Heading */
+/*------------------------- Heading ---------------------*/
 Header {
     margin: 0;
 }
@@ -221,7 +225,7 @@ Header {
     letter-spacing: 2px;
 }
 
-/*---------------------------------------------- Hover - css */
+/*------------------- Hover - css ---------------------------*/
 
 .hvr-shutter-out-horizontal:before {
     background: #808080;
@@ -232,7 +236,7 @@ Header {
     background: #000000;
 }
 
-/*---------------------------------------------- Footer */
+/*-------------------- Footer --------------------------*/
 
 footer {
     background-color: #000000;
@@ -282,4 +286,14 @@ footer {
 
 #footer-details {
     padding: 20px;
+}
+
+/* ---------- Creative Page ---------*/
+
+.creative-images {
+    background: #000000;
+}
+
+.creative-images div div img {
+    width: 30%;
 }
