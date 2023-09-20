@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700');
-
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700");
 
 /*---------------------------------------------- Colours */
 .bg-color-name-title {
@@ -35,6 +34,7 @@
     background-color: #808080;
     color: aliceblue;
 }
+
 /*---------------------------------------------- sp paddings/margins/texts */
 
 h1,
@@ -49,8 +49,7 @@ h4 {
 }
 
 .general-sub {
-    font-family: 'Josefin Sans',
-        sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-weight: 300;
     color: #808080;
 }
@@ -70,7 +69,7 @@ h4 {
 }
 
 .section-heading {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
@@ -80,7 +79,7 @@ h4 {
 
 .about-nath-icon {
     font-size: 26px;
-    color:#808080;
+    color: #808080;
 }
 
 .about-nath-heading {
@@ -102,11 +101,44 @@ h4 {
     color: aliceblue;
 }
 
+/*--- Nath's info */
+
+.naths-info-item {
+    margin-bottom: 10px;
+    clear: both;
+    display: block;
+}
+
+.naths-info-item .key,
+.naths-info-item .value {
+    padding-right: 5px;
+    display: inline-block;
+}
+
+.naths-info-item .key p,
+.naths-info-item .value p {
+    margin: 0;
+}
+
+.naths-info-item .key {
+    width: 25%;
+    margin-right: 15px;
+    padding-top: 5px;
+    vertical-align: top;
+}
+
+.naths-info-item .key p {
+    font-weight: 500;
+}
+
+.naths-info-item .value {
+    width: 65%;
+    position: relative;
+}
 
 /*---------------------------------------------- Heading */
 Header {
     margin: 0;
-
 }
 
 .heading {
@@ -119,13 +151,13 @@ Header {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 310px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
 }
 
 .name {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-weight: 300;
     font-size: 46px;
     margin-top: 25px;
@@ -133,8 +165,7 @@ Header {
 }
 
 .title {
-    font-family: 'Josefin Sans',
-        sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-weight: 200;
     font-size: 28px;
     margin-top: 10px;
@@ -190,7 +221,7 @@ Header {
     letter-spacing: 2px;
 }
 
-/*---------------------------------------------- Hover.css */
+/*---------------------------------------------- Hover - css */
 
 .hvr-shutter-out-horizontal:before {
     background: #808080;
