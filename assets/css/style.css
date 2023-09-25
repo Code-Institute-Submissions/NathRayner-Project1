@@ -105,6 +105,18 @@ h4 {
     color: aliceblue;
 }
 
+/* --------- Images ----------------*/
+
+.image-card {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.image-card img {
+    width: 30%;
+    height: auto;
+}
+
 /*---------- Nath's info -------------*/
 
 .naths-info-item {
@@ -296,8 +308,7 @@ footer {
 }
 
 .creative-images div div h3 {
-    font-family: "Josefin Sans",
-        sans-serif;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 .creative-images div div img {
