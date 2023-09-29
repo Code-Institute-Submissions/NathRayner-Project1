@@ -43,6 +43,12 @@ body {
     background-color: #000000;
 }
 
+/*---------------- Nav Bar -----------------*/
+
+nav {
+    background-color: #808080;
+}
+
 /*------------------ sp paddings/margins/texts ----------------------------*/
 
 h1,
