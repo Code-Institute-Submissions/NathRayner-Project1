@@ -337,3 +337,7 @@ footer {
 .creative-images div div img {
     width: 30%;
 }
+
+.container {
+    max-width: 90%;
+}
