@@ -45,8 +45,21 @@ body {
 
 /*---------------- Nav Bar -----------------*/
 
-nav {
-    background-color: #808080;
+.navbar {
+    background-color: black;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-color: aliceblue;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: aliceblue;
+}
+
+.navbar-light .navbar-toggler:focus,
+.navbar-light .navbar-toggler:active {
+    outline: none;
 }
 
 /*------------------ sp paddings/margins/texts ----------------------------*/
