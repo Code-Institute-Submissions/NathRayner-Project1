@@ -66,6 +66,15 @@ I hand drew all of my wireframes. However if you want to see what they look like
 
 - Tested (for desktop) contact.html great performance and accessibility and decent best practices - happy with this page on desktop.
 
+#### How the website was deployed
+
+- Went to github repository for "Project 1"
+- Settings tab
+- Down to pages
+- source - deploy from branch
+- branch - main, /(root)
+- deployed
+
 Code written:
 
 Some of the code written in this project is borrowed from a lesson via Code Institute - the git repository can be found here "https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4"
