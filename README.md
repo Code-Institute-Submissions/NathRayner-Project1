@@ -19,7 +19,7 @@ This website will be extremely useful as it will provide any potential employeer
 
 However for now it's a great starting point to give people access to what I'm currently doing and to get involved!
 
-Troubles:
+#### Troubles:
 
 - At the start of making this project, I decided on having a nice black/grey/white theme, after consulting with my mentor I downloaded and used WAVE for chrome which said it might be an issue for some visually impared users.
 
@@ -29,18 +29,15 @@ Troubles:
 
 - collapsed nav bar toggler not working as intended
 
-#### Wireframes
+#### Fixes
 
-I hand drew all of my wireframes. However if you want to see what they look like, go to the webpage as it is exactly the same.
-
-Fixes:
 I change the color scheme so that it is more friendly for all users.
 
+#### Wireframes
 
+I hand drew all of my wireframes. However if you want to see what they look like, go to the webpage as it has come out pretty much exactly how I drew.
 
-
-
-Tests:
+#### Tests:
 
 * Tested to see if nav bar works correctly - minor success, great on desktop, but currently having issues with the collapsable part on mobile devices.
 
