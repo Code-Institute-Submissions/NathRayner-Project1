@@ -2,64 +2,65 @@
 
 /*------------------------- Colours -----------------------------*/
 .bg-color-name-title {
-    background-color: black;
+  background-color: black;
 }
 
 .bg-color-whynath {
-    background: #000000;
-    color: #808080;
+  background: #000000;
+  color: #808080;
 }
 
 .ui-menu-color-home {
-    background-color: #000000;
-    color: #808080;
+  background-color: #000000;
+  color: #808080;
 }
 
 .ui-menu-color-film {
-    background-color: #000000;
-    color: #808080;
+  background-color: #000000;
+  color: #808080;
 }
 
 .ui-menu-color-contact {
-    background-color: #000000;
-    color: #808080;
+  background-color: #000000;
+  color: #808080;
 }
 
 .ui-menu-color-cv {
-    background-color: #000000;
-    color: #808080;
+  background-color: #000000;
+  color: #808080;
 }
 
 .bg-color-personal-info {
-    background-color: #808080;
-    color: aliceblue;
+  background-color: #808080;
+  color: aliceblue;
 }
 
 body {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: #000000;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #000000;
 }
 
 /*---------------- Nav Bar -----------------*/
 
 .navbar {
-    background-color: black;
+  background-color: black;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .navbar-light .navbar-toggler-icon {
-    background-color: aliceblue;
+  background-color: aliceblue;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: aliceblue;
+  color: #000000;
 }
 
 .navbar-light .navbar-toggler:focus,
 .navbar-light .navbar-toggler:active {
-    outline: none;
+  transition: all 0.35s ease-in-out;
 }
 
 /*------------------ sp paddings/margins/texts ----------------------------*/
@@ -68,276 +69,297 @@ h1,
 h2,
 h3,
 h4 {
-    margin: 0;
+  margin: 0;
 }
 
 .uppercase {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .general-sub {
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: 300;
-    color: #808080;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  color: #808080;
 }
 
 .inline-block {
-    display: inline-block;
+  display: inline-block;
 }
 
 .row-table {
-    display: table;
+  display: table;
 }
 
 .section-column {
-    display: table-cell;
-    padding: 0 30px 30px;
-    float: none;
+  display: table-cell;
+  padding: 0 30px 30px;
+  float: none;
 }
 
 .section-heading {
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 40px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
+/* ---------------- home -------------*/
+
+/* ---------------- Contact -------------*/
+
+.btn {
+  background-color: #808080;
+  color: #000000;
+  border: #808080;
+}
+
+.btn:hover {
+  background-color: aliceblue;
+  border: aliceblue;
+  color: #000000;
 }
 
 /* ---------------- Why Nath -----------------*/
 
 .about-nath-icon {
-    font-size: 26px;
-    color: #808080;
+  font-size: 26px;
+  color: #808080;
 }
 
 .about-nath-heading {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .imdb i {
-    font-size: 18px;
-    color: #808080;
-    text-align: center;
-    padding-left: 5px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+  font-size: 18px;
+  color: #808080;
+  text-align: center;
+  padding-left: 5px;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
 }
 
 .imdb i:hover {
-    color: aliceblue;
+  color: aliceblue;
 }
 
 /* --------- Images ----------------*/
 
 .image-card {
-    border: 1px solid #ccc;
-    margin-bottom: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
 }
 
 .image-card img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
+  padding: 5px 5px 5px 5px;
+}
+
+.me-img {
+  max-width: 30%;
+  padding: 15px 15px 15px 15px;
+}
+
+.nath-images {
+  display: flex;
+  justify-content: center;
+  padding: 15px 15px 15px 15px;
 }
 
 /*---------- Nath's info -------------*/
 
 .naths-info-item {
-    margin-bottom: 10px;
-    clear: both;
-    display: block;
+  margin-bottom: 10px;
+  clear: both;
+  display: block;
 }
 
 .naths-info-item .key,
 .naths-info-item .value {
-    padding-right: 5px;
-    display: inline-block;
+  padding-right: 5px;
+  display: inline-block;
 }
 
 .naths-info-item .key p,
 .naths-info-item .value p {
-    margin: 0;
+  margin: 0;
 }
 
 .naths-info-item .key {
-    width: 25%;
-    margin-right: 15px;
-    padding-top: 5px;
-    vertical-align: top;
+  width: 25%;
+  margin-right: 15px;
+  padding-top: 5px;
+  vertical-align: top;
 }
 
 .naths-info-item .key p {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .naths-info-item .value {
-    width: 65%;
-    position: relative;
+  width: 65%;
+  position: relative;
 }
 
 /*------------------------- Heading ---------------------*/
 Header {
-    margin: 0;
+  margin: 0;
 }
 
 .heading {
-    margin-left: 25px;
-}
-
-.logo {
-    background: url("../images/main.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 310px;
-    transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
+  margin-left: 25px;
 }
 
 .name {
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: 300;
-    font-size: 46px;
-    margin-top: 25px;
-    color: #808080;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 46px;
+  margin-top: 25px;
+  color: #808080;
 }
 
 .title {
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: 200;
-    font-size: 28px;
-    margin-top: 10px;
-    margin-bottom: 90px;
-    color: #808080;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 200;
+  font-size: 28px;
+  margin-top: 10px;
+  margin-bottom: 90px;
+  color: #808080;
 }
 
 .list-inline-item:not(:last-child) {
-    margin: 0;
+  margin: 0;
 }
 
 .menucontainer {
-    font-size: 0;
+  font-size: 0;
 }
 
 #nav li {
-    font-size: 14px;
-    padding: 0;
+  font-size: 14px;
+  padding: 0;
 }
 
 #nav {
-    margin: 0;
+  margin: 0;
 }
 
 .menuitem {
-    height: 120px;
-    text-align: center;
-    padding: 0;
+  height: 120px;
+  text-align: center;
+  padding: 0;
 }
 
 .menuitem a {
-    width: 100%;
-    text-decoration: none;
-    color: #808080;
-    height: 120px;
+  width: 100%;
+  text-decoration: none;
+  color: #808080;
+  height: 120px;
 }
 
 .menuitem a i {
-    padding-top: 22px;
-    display: block;
-    color: #808080;
-    font-size: 26px;
+  padding-top: 22px;
+  display: block;
+  color: #808080;
+  font-size: 26px;
 }
 
 .menuitem span {
-    display: block;
-    width: 100%;
-    padding-top: 5px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 2px;
+  display: block;
+  width: 100%;
+  padding-top: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 2px;
 }
 
 /*------------------- Hover - css ---------------------------*/
 
 .hvr-shutter-out-horizontal:before {
-    background: #808080;
-    height: 120px;
+  background: #808080;
+  height: 120px;
 }
 
 .hvr-shutter-out-horizontal {
-    background: #000000;
+  background: #000000;
 }
 
 /*-------------------- Footer --------------------------*/
 
 footer {
-    background-color: #000000;
-    color: #808080;
-    min-height: 120px;
-    margin: 0;
+  background-color: #000000;
+  color: #808080;
+  min-height: 120px;
+  margin: 0;
 }
 
 .cv-pdf i {
-    font-size: 18px;
-    color: #808080;
-    text-align: center;
-    padding-left: 5px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+  font-size: 18px;
+  color: #808080;
+  text-align: center;
+  padding-left: 5px;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
 }
 
 .cv-pdf i:hover {
-    color: aliceblue;
+  color: aliceblue;
 }
 
 .social-links {
-    padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 .social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: aliceblue;
-    background: #000000;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+  width: 32px;
+  height: 32px;
+  padding: 12px 0;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 7px;
+  text-align: center;
+  color: aliceblue;
+  background: #000000;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
 }
 
 .social-links li a i:hover {
-    background: #808080;
+  background: #808080;
 }
 
 #footer-details {
-    padding: 20px;
+  padding: 20px;
 }
 
 /* ---------- Creative Page ---------*/
 
 .creative-images {
-    background: #000000;
-    color: #808080;
+  background: #000000;
+  color: #808080;
 }
 
 .creative-images div div h3 {
-    font-family: "Josefin Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
-.creative-images div div img {
-    width: 30%;
+header {
+  padding-left: 20px;
+  padding-top: 20px;
+  color: #808080;
+  font-family: "Josefin Sans", sans-serif;
+  text-decoration: underline;
 }
 
 .container {
-    max-width: 90%;
+  max-width: 90%;
 }
