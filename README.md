@@ -1,9 +1,8 @@
 ### Hello!
 
-### Final Website
+![These are the finalised images of the website](/assets/images/am-i-responsive.jpg)
 
-![These are the finalised images of the website] (/assets/images/am-i-responsive.jpg)
-
+Above is the finished website. I'm pretty happy with it but have small bits I look forward to improving.
 
 #### UX
 
@@ -24,6 +23,18 @@ This website is to be used as an online CV or contact page for myself. I will up
 This website will be extremely useful as it will provide any potential employeers with all of my details, a way to get in touch with me and a way to instantly get to see my CV. I plan to eventually make the images on the creative page a bit more responsive, maybe starting smaller, then when clicked give information about the picture and who is in it, also make it downloadable with a watermark.
 
 However for now it's a great starting point to give people access to what I'm currently doing and to get involved!
+
+#### Wireframes
+
+##### Desktop
+![Wireframe for desktop index.html](/assets/images/wireframes/Wireframe-index.jpg)
+![Wireframe for desktop creative.html](/assets/images/wireframes/wireframe-creative.jpg)
+![Wireframe for desktop contact.html](/assets/images/wireframes/wireframe-contact.jpg)
+
+##### Mobile
+
+![Wireframe for mobile of index and creative.html](/assets/images/wireframes/mobile-wireframe.jpg)
+
 
 #### Troubles:
 
