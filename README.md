@@ -119,6 +119,13 @@ I hand drew all of my wireframes. However if you want to see what they look like
 - branch - main, /(root)
 - deployed
 
+
+#### Future Plans
+
+I plan in the future to make the nav bar smaller on the md/sm devices, at the moment it's quite chunky but I ran out of time to fix this. I feel that it's just a small issue at the moment and isn't breaking, just a bit unsightly.
+
+I plan to have all images to have a water mark and for all of them to be smaller and expand when clicked on. These images with then have a description and cost to download or buy the rights of. These images will then be purchasable for use.
+
 Code written:
 
 Some of the code written in this project is borrowed from a lesson via Code Institute - the git repository can be found here "https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4"
