@@ -36,6 +36,19 @@ However for now it's a great starting point to give people access to what I'm cu
 ![Wireframe for mobile of index and creative.html](/assets/images/wireframes/mobile-wireframe.jpg)
 
 
+#### User Stories
+
+Possible user 1: As a Producer of film I would like to see Nath's IMDb credits - I can do so by looking at the footer, the Why Nath section on the index.html and ask for them via the contact page.
+
+Possible user 2: As a fan of Nath's work I would like to follow his socials, I can do that by looking at the footer on any page and selecting which solcial I would like to follow from there.
+
+Possible user 3: I have a role available on my team, I have been told to have a look at Nath and have been provided with his website, I can look through his past work Via downloading his CV from the footer, or the nav bar and see what personal projects he has been working on via his creative page.
+
+Possible user 4: I have been looking for photography to use for my own app/website, I can see on Nath's creative page photo's that he has taken - I can then go into the contact part of the website to then ask Nath for permission to use these photos and get the raw images from him myself.
+
+Possible user 5: I have a github project that I need more hands on deck for, I see Nath has a github social tag, I can then use this social link to get to Nath's github and see if he could work with me on this next project.
+
+
 #### Troubles:
 
 - At the start of making this project, I decided on having a nice black/grey/white theme, after consulting with my mentor I downloaded and used WAVE for chrome which said it might be an issue for some visually impared users.
@@ -73,17 +86,23 @@ I hand drew all of my wireframes. However if you want to see what they look like
 
 - Test to make sure form gets submitted correctly - success, however there is currently no website that I can use in order to get the emails from this form, this will be coming when I start hosting on my own domains.
 
-- Tested (for mobile) index.html lighthouse to make sure it's preformance, best practices and accessibility - Performance is great, accessibility decent and need work on best practices.
+- Tested (for mobile) index.html lighthouse to make sure it's preformance, best practices and accessibility - Performance is okay, accessibility great and okay best practices.
+![Lighthouse score for mobile index.html 71-97-83](/assets/images/lighthouse/lighthouse-desktop-index-mobile.jpg)
 
 - Tested (for mobile) creative.html with lighthouse, this page is going to be resource heavy as it has multiple high quality images that were optimised. This page has a low performance score again due to the fact the images are large in file size and high quality, this is something I'm willing to sacrifice as it is important to have the images at a high quality. Accessibility and best practices are both still very good.
+![Lighthouse score for mobile creative.html 70-94-83](/assets/images/lighthouse/lighthouse-desktop-creative-mobile.jpg)
 
 - Tested (for mobile) contact.html with lighthouse, as expected this is the best performance from all pages, as it is low in data and most things are just text this page's performance is high, accessibility high and best practice decent. Again even though WAVE suggests that the grey on white is not good for all users (colour blind users) I am choosing to keep this as a design choice.
+![Lighthouse score for mobile contact.html 93-93-83](/assets/images/lighthouse/lighthouse-desktop-contact-mobile.jpg)
 
 - Tested (for desktop) index.html, decent performance, accessibility and best practices. Some minor errors that are noted above in the "Troubles" section of this readme.
+![Lighthouse score for index.html 93-85-75](/assets/images/lighthouse/lighthouse-desktop-index.png)
 
 - Tested (for desktop) creative.html again decent performance, great accessibility and decent best practices - this performance was expected to be lower as for the same reasons on the mobile test.
+![Lighthouse score for creative.html 93-98-83](/assets/images/lighthouse/lighthouse-desktop-creative.jpg)
 
 - Tested (for desktop) contact.html great performance and accessibility and decent best practices - happy with this page on desktop.
+![Lighthouse score for contact.html 99-95-83](/assets/images/lighthouse/lighthouse-desktop-contact.jpg)
 
 #### How the website was deployed
 
