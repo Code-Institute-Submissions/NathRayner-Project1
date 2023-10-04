@@ -1,5 +1,10 @@
 ### Hello!
 
+### Final Website
+
+![These are the finalised images of the website] (/assets/images/am-i-responsive.jpg)
+
+
 #### UX
 
 This page is intended to be a page that is informational based about myself, Nath Rayner.
@@ -24,8 +29,6 @@ However for now it's a great starting point to give people access to what I'm cu
 
 - At the start of making this project, I decided on having a nice black/grey/white theme, after consulting with my mentor I downloaded and used WAVE for chrome which said it might be an issue for some visually impared users.
 
-- Navbar staying white, working on a fix
-
 - unable to make one of the main pictures disapear on smaller devices
 
 - collapsed nav bar toggler not working as intended
@@ -34,7 +37,12 @@ However for now it's a great starting point to give people access to what I'm cu
 
 #### Fixes
 
-I change the color scheme so that it is more friendly for all users.
+- I change the color scheme so that it is more friendly for all users.
+
+- Was using incorrect code to make one of the index.html photos to disapear on smaller decives, have now changed that code to the correct one.
+
+- Removed the collapseble nav bar toggler on smaller devices and have changed it so just the icons appear instead
+
 
 #### Wireframes
 
